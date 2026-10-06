@@ -1,0 +1,123 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+  /Type /Pages
+  /Kids [3 0 R]
+  /Count 1
+>>
+endobj
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /MediaBox [0 0 595 842]
+  /Contents 4 0 R
+  /Resources <<
+    /Font <<
+      /F1 5 0 R
+    >>
+  >>
+>>
+endobj
+4 0 obj
+<<
+  /Length 1952
+>>
+stream
+BT
+/F1 20 Tf
+50 750 Td
+(MUHAMMAD SINAN) Tj
+/F1 12 Tf
+0 -25 Td
+(AI Engineer | Python Developer | Full-Stack Developer) Tj
+0 -20 Td
+(Email: muhdsinan2424@gmail.com | LinkedIn: linkedin.com/in/muhammad-sinancp) Tj
+0 -15 Td
+(GitHub: github.com/muhdsinan1 | Location: India) Tj
+/F1 14 Tf
+0 -35 Td
+(PROFESSIONAL SUMMARY) Tj
+/F1 10 Tf
+0 -18 Td
+(BCA graduate specializing in AI, Cloud Computing & DevOps with hands-on experience building) Tj
+0 -14 Td
+(intelligent applications, scalable backend APIs, and modern full-stack systems.) Tj
+/F1 14 Tf
+0 -30 Td
+(TECHNICAL SKILLS) Tj
+/F1 10 Tf
+0 -18 Td
+(Languages: Python, JavaScript, SQL, HTML, CSS, Java) Tj
+0 -14 Td
+(AI / ML: TensorFlow, Keras, Scikit-learn, OpenCV, Pandas, NumPy, NLP, Computer Vision) Tj
+0 -14 Td
+(Backend: Django, Django REST Framework, FastAPI, Flask, Spring Boot) Tj
+0 -14 Td
+(Frontend: React, Angular, Vite, Tailwind CSS) Tj
+0 -14 Td
+(Databases: PostgreSQL, MySQL, SQLite) Tj
+0 -14 Td
+(Cloud & DevOps: Docker, Git, GitHub, Cloud Deployment, CI/CD) Tj
+/F1 14 Tf
+0 -30 Td
+(EXPERIENCE) Tj
+/F1 10 Tf
+0 -18 Td
+(Machine Learning Intern - TCS [Remote Internship]) Tj
+0 -14 Td
+(- Conducted data preprocessing, feature engineering, and exploratory data analysis using Python.) Tj
+0 -14 Td
+(- Built, evaluated, and fine-tuned machine learning predictive models.) Tj
+/F1 14 Tf
+0 -30 Td
+(EDUCATION) Tj
+/F1 10 Tf
+0 -18 Td
+(Bachelor of Computer Applications (BCA)) Tj
+0 -14 Td
+(Specialization in Artificial Intelligence, Cloud Computing & DevOps) Tj
+/F1 14 Tf
+0 -30 Td
+(FEATURED PROJECTS) Tj
+/F1 10 Tf
+0 -18 Td
+(- AI Digital Human: Real-time conversational AI system with FastAPI backend & React UI) Tj
+0 -14 Td
+(- GOIA AI Chatbot: NLP chatbot integrating Dialogflow, FastAPI, and MySQL) Tj
+0 -14 Td
+(- Potato Leaf Disease Detection: CNN Computer Vision classification system using TensorFlow) Tj
+0 -14 Td
+(- FoOtAreNa: Sports turf discovery & booking platform built with React, Django & PostgreSQL) Tj
+ET
+endstream
+endobj
+5 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000248 00000 n 
+00000002250 00000 n 
+trailer
+<<
+  /Size 6
+  /Root 1 0 R
+>>
+startxref
+2359
+%%EOF
