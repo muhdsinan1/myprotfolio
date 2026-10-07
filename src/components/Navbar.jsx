@@ -70,6 +70,9 @@ export default function Navbar() {
             onClick={(e) => handleNavClick(e, '#home')}
             className="group flex items-baseline gap-2 text-decoration-none focus:outline-none"
           >
+            <h1 className="font-editorial-serif text-2xl sm:text-3xl lg:text-4xl font-medium tracking-tight text-[#111111] group-hover:translate-x-1 transition-transform">
+              {personalData.name}
+            </h1>
           </a>
 
           {/* Right: Desktop Links + Minimal Circular Menu Button */}

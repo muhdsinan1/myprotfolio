@@ -53,7 +53,7 @@ export default function App() {
       {/* Main Portfolio Content */}
       <main id="main-content" className="flex-1">
         {/* 1. Hero Section */}
-        <Hero onOpenResumeModal={() => setIsResumeModalOpen(true)} />
+        <Hero />
 
         {/* 2. Intro Philosophy & Statement Section */}
         <IntroStatement />

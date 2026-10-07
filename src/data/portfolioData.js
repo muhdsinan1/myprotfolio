@@ -157,7 +157,7 @@ export const projectsData = [
       "Secure MySQL integration managing persistent order records and client logs",
       "Graceful fallback handling ensuring users receive clear guidance when inputs are ambiguous"
     ],
-    github: "https://github.com/muhdsinan1/goia-ai-chatbot",
+    github: "https://github.com/muhdsinan1/Goia-Chatbot",
     demo: "#",
     hasLiveDemo: false,
     image: "./assets/projects/goia-chatbot.png",
@@ -192,7 +192,7 @@ export const projectsData = [
       "Validation & Performance Tuning",
       "Inference API & Real-time Prediction"
     ],
-    github: "https://github.com/muhdsinan1/potato-leaf-disease-detection",
+    github: "https://github.com/muhdsinan1/potato-disease",
     demo: "#",
     hasLiveDemo: false,
     image: "./assets/projects/potato-disease.png"
@@ -214,7 +214,7 @@ export const projectsData = [
       "Hyperparameter grid search optimizing SVM kernels (RBF vs Linear)",
       "Lightweight model serialization with Joblib for instant inference execution"
     ],
-    github: "https://github.com/muhdsinan1/sports-celebrity-classification",
+    github: "https://github.com/muhdsinan1/image_classification",
     demo: "#",
     hasLiveDemo: false,
     image: "./assets/projects/sports-celebrity.png"
@@ -236,7 +236,7 @@ export const projectsData = [
       "PostgreSQL database tracking users, arenas, bookings, and operational hours",
       "Role-based control for arena operators to manage schedules and pricing"
     ],
-    github: "https://github.com/muhdsinan1/footarena-turf-booking",
+    github: "https://github.com/muhdsinan1/FOotARa",
     demo: "#",
     hasLiveDemo: false,
     image: "./assets/projects/footarena.png"

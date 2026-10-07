@@ -1,15 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Download } from 'lucide-react';
 import { personalData } from '../data/portfolioData';
-import { GithubIcon, LinkedinIcon } from './Icons';
 
-export default function Hero({ onOpenResumeModal }) {
-  const scrollToContact = (e) => {
-    e.preventDefault();
-    const el = document.getElementById('contact');
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
-  };
+export default function Hero() {
 
   return (
     <section
@@ -133,75 +126,6 @@ export default function Hero({ onOpenResumeModal }) {
             </p>
           </div>
         </div>
-
-        {/* Bottom Hero Bar: Supporting Credentials & Premium Black Pill CTA (Matches Reference Exactly) */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.45 }}
-          className="grid grid-cols-1 md:grid-cols-12 gap-6 items-end pt-4 sm:pt-6 border-t border-black/[0.07] relative z-30"
-        >
-          {/* Bottom Left: Credentials Card + Social Icon Buttons (Reference bottom-left style) */}
-          <div className="md:col-span-6 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
-            <div className="flex items-center gap-3 bg-white/80 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-black/[0.07] shadow-xs">
-              <div className="w-8 h-8 rounded-full bg-[#111111] text-[#B8FF3D] flex items-center justify-center font-mono font-bold text-xs select-none">
-                MS
-              </div>
-              <div>
-                <span className="text-xs font-bold text-[#111111] uppercase tracking-wider block">
-                  {personalData.statusCard.title}
-                </span>
-                <span className="text-[11px] text-[#666666] font-medium block">
-                  {personalData.statusCard.subtitle} • TCS Remote Intern
-                </span>
-              </div>
-            </div>
-
-            {/* Social quick links */}
-            <div className="flex items-center gap-2">
-              <a
-                href={personalData.socials.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-8 h-8 rounded-full bg-white border border-black/10 hover:border-black flex items-center justify-center text-[#111111] transition-all hover:scale-105"
-                aria-label="GitHub Profile"
-              >
-                <GithubIcon className="w-3.5 h-3.5" />
-              </a>
-              <a
-                href={personalData.socials.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-8 h-8 rounded-full bg-white border border-black/10 hover:border-black flex items-center justify-center text-[#111111] transition-all hover:scale-105"
-                aria-label="LinkedIn Profile"
-              >
-                <LinkedinIcon className="w-3.5 h-3.5" />
-              </a>
-            </div>
-          </div>
-
-          {/* Bottom Right: Primary Pill CTAs with slide-arrow on hover */}
-          <div className="md:col-span-6 flex items-center justify-start md:justify-end gap-3 flex-wrap">
-            <button
-              type="button"
-              onClick={onOpenResumeModal}
-              className="px-5 py-3 rounded-full text-xs font-semibold text-[#111111] bg-white border border-black/15 hover:border-black/40 hover:bg-neutral-50 transition-all shadow-xs flex items-center gap-2 hover:scale-[1.02]"
-            >
-              <Download className="w-3.5 h-3.5" />
-              <span>Download Resume</span>
-            </button>
-
-            <a
-              href="#contact"
-              onClick={scrollToContact}
-              className="editorial-pill-btn group inline-flex items-center gap-2.5 px-7 py-3 text-xs sm:text-sm font-semibold tracking-tight shadow-md hover:scale-[1.02] transition-all duration-300"
-            >
-              <span>Let's Talk</span>
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300" />
-            </a>
-          </div>
-        </motion.div>
-
       </div>
     </section>
   );
